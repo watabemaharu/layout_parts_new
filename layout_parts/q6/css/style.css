@@ -6,9 +6,7 @@
 
 .text-align-box {
  text-align: center;
-
 }
-
 
 .ptext {
   display: inline-block;
@@ -17,8 +15,6 @@
   width: 90px;
   padding-top: 10px;
   padding-bottom: 10px; 
-  
-  
 }
 
 .pmargin {
@@ -35,7 +31,51 @@
 
 
 
+.q6--around.table-box {
+  display: table;
+}
 
+.text-table-box {
+  display: table-cell;
+  text-align: center;
+  vertical-align:middle;
+}
+
+.text-table {
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+}
+
+
+
+
+
+
+.q6--around.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+
+
+.text-flex {
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+
+}
+
+
+
+.text-flex-box {
+  display: flex;
+
+}
 
 
 
