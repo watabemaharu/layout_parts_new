@@ -2,4 +2,116 @@
 
 /* 回答はここに書いてね */
 
+.content {
+  margin: auto;
+  position: relative;
+  height: 500px;
+  width: 500px;
+  background-color: #ecf1f2;
+}
+
+
+.box- {
+  position: absolute;
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+}
+
+
+
+.box-.iti {
+  background-color: #ffefd3;
+  top:40px;
+  left: 200px;
+  z-index: 1;
+}
+
+
+
+
+.box-.ni {
+  background-color: #7084de;
+  top:120px;
+  left: 280px;
+  z-index: 2;
+}
+
+.box-.san {
+  background-color: #d0ecea;
+  top:200px;
+  left: 360px;
+  z-index: 3;
+}
+
+.box-.yon {
+  background-color: #8b7a5e;
+  top:280px;
+  left: 280px;
+  z-index: 4;
+}
+
+.box-.go {
+  background-color: #9fd6d2;
+  top:360px;
+  left: 200px;
+  z-index: 5;
+}
+
+.box-.roku {
+  background-color: #fffee4;
+  top:280px;
+  left: 120px;
+  z-index: 6;
+}
+
+.box-.nana {
+  background-color: #deae70;
+  top:200px;
+  left: 40px;
+  z-index: 7;
+}
+
+.box-.hati {
+ 
+  background-color: #de70cf;
+  top:120px;
+  left: 120px;
+  z-index: 8;
+}
+
+.box-.hati:after {
+  position: absolute;
+  background-color: #ffefd3;
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  right: 0px;
+  content: "";
+}
+
+
+.box-.kyu {
+  background-color: #2b69a3;
+  top:10px;
+  left: 10px;
+  position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 回答はここに書いてね */

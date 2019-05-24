@@ -2,4 +2,349 @@
 
 /* 回答はここに書いてね */
 
+.small {
+  font-size: 16px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 3px;
+  line-height: 26px;
+  display: inline-block;
+}
+
+.middle {
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+  line-height: 32px;
+  display: inline-block;
+}
+
+.large {
+  font-size: 24px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 7px;
+  display: inline-block;
+  line-height: 38px;
+}
+
+
+
+
+.common {
+  background-color: #00bcd4;
+  color:#fff;
+  
+}
+
+.error {
+  background-color: #ff4081;
+  color:#fff;
+  margin-left: 10px;
+}
+
+.disabled {
+  background-color: #e5e5e5;
+  color:#fff;
+  margin-left: 10px;
+}
+
+.shadow {
+  color: #222;
+  background-color: #fff;
+  margin-left: 10px;
+  box-shadow: 
+  0 1px 6px rgba(0,0,0,.12),
+  0 1px 4px rgba(0,0,0,.12);
+}
+
+
+
+
+
+.parent {
+  width: 700px;
+  background-color: #edf1f2;
+  margin: auto;
+  padding: 20px;
+ 
+}
+
+.form_title {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.title_text {
+  background-color: #edf1f2;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  padding-right: 10px;
+  position: relative;
+  
+}
+
+
+.form_title::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 100%;
+  background-color: #ccc;
+  height: 1px;
+ 
+}
+
+
+
+.clearfix:first-child {
+  margin-top: 0px;
+}
+
+
+.q8_main {
+  float: left;
+  width: 300px;
+}
+
+.list_title {
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+  
+}
+
+.name_form.from select {
+
+  -webkit-appearance: none;
+	-moz-appearance: none;
+  appearance: none;
+}
+.name_form.from {
+  position: relative;
+}
+
+
+
+.name_form.from:after {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+
+
+
+.list>li  {
+  margin-top: 20px;
+}
+
+
+.list {
+  margin-bottom: 20px;
+}
+
+.namae_akuse {
+  color: #F00;
+}
+
+
+.name_form {
+  float: right;
+  width: 180px;
+  
+}
+
+
+
+.q8__input {
+  border: none;
+  padding: 5px;
+  font-size: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.q8__input--init{
+  background-color: #FFF;
+}
+
+
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.gender {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+
+
+.gender:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+
+.seibetu:checked+.gender:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+.radio_gender {
+  cursor: pointer;
+}
+
+
+
+.checkbox {
+  text-align: right;
+  
+}
+
+.checkbox-text {
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.checkbox-text::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+
+.checkbox_btn:checked+.checkbox-text::after {
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: '';
+}
+
+
+
+
+.sousin_bottan {
+  text-align:right ;
+  
+}
+
+
+
+
+
+
+
+.select {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+
+
+
+.submit_button {
+  background-color: #00BCD4;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 10px;
+  color: #FFF;
+  cursor: pointer;
+}
+
+
+.submit_button:active {
+  background-color: #FFF;
+  color: #00BCD4;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+
+
+.side {
+  width: 380px;
+  float: right;
+  
+}
+
+.q8__side__text {
+  width:100%;
+  resize: none;
+  height:203px ;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 12px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.q8__input:focus,
+textarea:focus {
+  box-shadow: 0 0 7px #00BCD4;;
+  
+}
+
+
+
+
 /* 回答はここに書いてね */
