@@ -29,9 +29,6 @@
   line-height: 38px;
 }
 
-
-
-
 .common {
   background-color: #00bcd4;
   color:#fff;
@@ -59,10 +56,6 @@
   0 1px 4px rgba(0,0,0,.12);
 }
 
-
-
-
-
 .parent {
   width: 700px;
   background-color: #edf1f2;
@@ -87,7 +80,6 @@
   
 }
 
-
 .form_title::before {
   position: absolute;
   content: "";
@@ -96,15 +88,11 @@
   width: 100%;
   background-color: #ccc;
   height: 1px;
- 
 }
-
-
 
 .clearfix:first-child {
   margin-top: 0px;
 }
-
 
 .q8_main {
   float: left;
@@ -115,12 +103,10 @@
   float: left;
   width: 100px;
   line-height: 25px;
-  text-align: right;
-  
+  text-align: right; 
 }
 
 .name_form.from select {
-
   -webkit-appearance: none;
 	-moz-appearance: none;
   appearance: none;
@@ -128,8 +114,6 @@
 .name_form.from {
   position: relative;
 }
-
-
 
 .name_form.from:after {
   display: block;
@@ -145,12 +129,9 @@
   pointer-events: none;
 }
 
-
-
 .list>li  {
   margin-top: 20px;
 }
-
 
 .list {
   margin-bottom: 20px;
@@ -160,14 +141,10 @@
   color: #F00;
 }
 
-
 .name_form {
   float: right;
   width: 180px;
-  
 }
-
-
 
 .q8__input {
   border: none;
@@ -179,9 +156,8 @@
 
 .q8__input--init{
   background-color: #FFF;
+  outline: none;
 }
-
-
 
 .clearfix::after {
   display: block;
@@ -195,8 +171,6 @@
   padding: 3px 3px 3px 20px;
 }
 
-
-
 .gender:before {
   position: absolute;
   top: 50%;
@@ -209,7 +183,6 @@
   border-radius: 50%;
   content: '';
 }
-
 
 .seibetu:checked+.gender:after {
   position: absolute;
@@ -226,8 +199,6 @@
 .radio_gender {
   cursor: pointer;
 }
-
-
 
 .checkbox {
   text-align: right;
@@ -265,19 +236,9 @@
   content: '';
 }
 
-
-
-
 .sousin_bottan {
   text-align:right ;
-  
 }
-
-
-
-
-
-
 
 .select {
   width: 100%;
@@ -288,9 +249,6 @@
   box-sizing: border-box;
   cursor: pointer;
 }
-
-
-
 
 .submit_button {
   background-color: #00BCD4;
@@ -303,7 +261,6 @@
   cursor: pointer;
 }
 
-
 .submit_button:active {
   background-color: #FFF;
   color: #00BCD4;
@@ -311,13 +268,9 @@
   box-sizing: border-box;
 }
 
-
-
-
 .side {
   width: 380px;
   float: right;
-  
 }
 
 .q8__side__text {
@@ -341,10 +294,6 @@ input[type=checkbox] {
 .q8__input:focus,
 textarea:focus {
   box-shadow: 0 0 7px #00BCD4;;
-  
 }
-
-
-
 
 /* 回答はここに書いてね */

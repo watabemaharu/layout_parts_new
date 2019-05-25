@@ -9,9 +9,6 @@
 
 }
 
-
-
-
 .table_contents th {
   font-size: 18px;
   line-height: 26px;
@@ -20,7 +17,6 @@
   border: solid #dedede 1px;
   padding: 10px;
 }
-
 
 .table_contents td {
   font-size: 16px;
@@ -37,10 +33,6 @@ tr:last-child {
   border-top: dashed #000 2px;
   
 }
-
-
-
-
 
 
 /* 回答はここに書いてね */

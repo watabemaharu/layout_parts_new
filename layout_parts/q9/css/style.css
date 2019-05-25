@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.gazou {
+.img {
   position: relative;
   margin: auto;
   width:500px;
@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.gazou_jpg {
+.img_jpg {
 transition: all 0.5s ;
 }
 
@@ -36,18 +36,13 @@ transition: all 0.5s ;
 }
 
 
-.gazou:hover .gazou_jpg {
+.img:hover .img_jpg {
   transform:scale(1.5);
 }
 
-.gazou:hover .text_parent {
+.img:hover .text_parent {
   bottom:0 ;
 }
-
-
-
-
-
 
 .anime {
   width: 100px;
@@ -64,25 +59,6 @@ transition: all 0.5s ;
     transform: rotate(360deg);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* 回答はここに書いてね */
